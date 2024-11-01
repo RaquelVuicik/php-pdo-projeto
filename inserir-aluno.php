@@ -9,8 +9,8 @@ $pdo = new PDO('sqlite:' . $databasePath);
 
 $student = new Student(
     null,
-    "Raquel', ''); DROP TABLE students; -- Vuicik",
-    new \DateTimeImmutable('1994-11-21')
+    "Patricia Freitas",
+    new \DateTimeImmutable('1986-10-25')
 );
 
 $sqlInsert = "INSERT INTO students (name, birth_date) VALUES (?, ?);";
